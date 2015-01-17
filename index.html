@@ -1,60 +1,132 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-
 <head>
+<script src="/assets/jquery.js"></script>
+
 <meta charset="utf-8">
 <meta content="christian.tirol  |  c-trl.github.io" property="og:site_name">
 <meta content="christian.tirol  |  c-trl.github.io" property="og:title">
 <meta content="website" property="og:type">
 <meta content="Y = β⁰ + βThe Blue Sky + ε." property="og:description">
 <meta content="http://christiantirol.com/" property="og:url">
+<link rel="shortcut icon" href="http://bobdawg.org/images/ico/Link_Vista.ico">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/cs'>
 
-<meta property="og:locale"    content="en_us" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-<link href="https://raw.githubusercontent.com/c-trl/c-trl.github.io/master/css/home.css" media="screen, projection" rel="stylesheet" type="text/css">
+<style>
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
 
-  
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("http://i.imgur.com/piEMNON.jpg");
+}
+.second{
+  background-image: url("http://i.imgur.com/Bc7Dsg1.jpg");
+}
+.dessert{
+  background-image: url("http://i.imgur.com/P9Vi3BH.jpg");
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
+
 </head>
 
-
-
-
 <body>
-<div style="margin-left:10px;margin-right:10px;">
-<!-- start of lyrics -->
-<font color=#444444>
-<p><b>They're Red Hot</b><br>
-Red Hot Chili Peppers</p>
-
-<p>Hot tamales and they red hot, yes, she got 'em for sale<br />
-Hot tamales and they red not, yes, she got 'em for sale<br />
-I got a girl, say she long and tall<br />
-She sleeps in the kitchen with her feets in the hall<br />
-Hot tamales and they red hot, yes, she got 'em for sale, I mean<br />
-Yes she got 'em for sale, yeah<br />
-<br />
-Hot tamales and they red hot, yes, she got 'em for sale #They too hot, boy#<br />
-Hot tamales and they red hot, yes, now, she got 'em for sale<br />
-You know the monkey, now the baboon playin' in the grass<br />
-Well, the monkey stuck his finger in that old "Good Gulf Gas," now<br />
-Hot tamales and they red hot, yes, she got 'em for sale, I mean<br />
-Yes, she got 'em for sale<br />
-<br />
-Hot tamales and they red hot, yes, she got 'em for sale<br />
-Hot tamales and they red hot, yes, she got 'em for sale<br />
-She got two for a nickel, got four for a dime<br />
-Would sell you more, but they ain't none of mine<br />
-Hot tamales and they red hot, yes, she got 'em for sale, I mean<br />
-Yes, she got 'em for sale, yes, yeah<br />
-<br />
-Hot tamales and they red hot, yes, she got 'em for sale<br />
-I'm 'onna upset your backbone, put your kidneys to sleep<br />
-I'll due to break 'way your liver and dare your heart to beat 'bout my<br />
-Hot tamales 'cause they red hot, yes, they got 'em for sale, I mean<br />
-Yes, she got 'em for sale, yeah</p>
-<!-- end of lyrics -->
+<h1>christian.tirol  |  c-trl.github.io</h1>
+<h2>economics | data science | analytics</h2>
+<div class="first">
+  <p>Median Rent Prices with Zillow's ZRI Data <span class="price">January 17, 2015</span><br />
+  <small>Exploring rent trends in New Jersey with Zillow's Real Estate Research data.</small></p>
 </div>
+
+<div class="second">
+  <p>Natural Language Processing with Python's NLTK<span class="price">January 15, 2015</span><br />
+  <small>I used to be a wanna-be rapper.</small></p>
+</div>
+  
+<div class="dessert">
+  <p>Data Science at General Assembly<span class="price">January 12, 2015</span><br />
+  <small>If my life was an 11-week Data Science course, this is my memoir.</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
 </body>
-</html>
