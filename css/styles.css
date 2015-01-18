@@ -18,12 +18,12 @@ h1 {
   text-align: center;
   font-size: 75px;
   color: #999999;
-  margin: 10px 0 0 0;
+  margin: 50px 0 0 0;
 }
 h2 {
   text-align: center;
   color: #bbbbbb;
-  margin: 0px 0 70px 0;
+  margin: 0px 0 50px 0;
   font-weight: 400;
 }
 p {
@@ -64,6 +64,7 @@ p {
   text-align:justify;
   font-size: 8px;
   color: #dddddd;
+  position: relative;
 }
 small {
   opacity: 50;
