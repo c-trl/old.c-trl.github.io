@@ -12,12 +12,8 @@ div {
   border-radius: 12px;
   font-weight: 700;
 }
-header {
-  background: transparent;
-  top: 0;
-  position: fixed;
-}
-.h1 {
+
+h1 {
   font-family: 'Squada One', cursive;
   text-align: center;
   font-size: 75px;
@@ -45,6 +41,11 @@ p {
   transition: height .5s;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
+}
+.header {
+  background: transparent;
+  top: 0;
+  position: fixed;
 }
 .feet {
     text-align:justify;
