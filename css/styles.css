@@ -61,10 +61,10 @@ p {
   position: relative;
 }
 .feet {
-  text-align:justify;
+  text-align:center;
   font-size: 8px;
   color: #dddddd;
-  
+  margin 0 auto;
   bottom: 0;
 }
 small {
