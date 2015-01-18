@@ -12,7 +12,6 @@ div {
   border-radius: 12px;
   font-weight: 700;
 }
-
 h1 {
   font-family: 'Squada One', cursive;
   text-align: center;
@@ -45,11 +44,8 @@ p {
 .header {
   top: 0;
   background-color: #343434;
-  height: 330px;
   width: 600px;
   top: 0;
-  z-index: 1;
-  margin: 0 0 50px 0;
   text-align: center;
   border-radius: 0px;
 }
