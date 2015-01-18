@@ -13,19 +13,19 @@ div {
   font-weight: 700;
 }
 
-#h1 {
+h1 {
   font-family: 'Squada One', cursive;
   text-align: center;
   font-size: 75px;
   color: #999999;
   margin: 60px 0 0 0;
 }
-#h2 {
+h2 {
   text-align: center;
   color: #bbbbbb;
   margin: 0px 0 70px 0;
 }
-#p {
+p {
   color: #dddddd;
   background: black;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
