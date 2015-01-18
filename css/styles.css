@@ -24,7 +24,6 @@ h2 {
   text-align: center;
   color: #bbbbbb;
   margin: 0px 0 30px 0;
-  font-weight: 400;
 }
 p {
   color: #dddddd;
@@ -61,8 +60,9 @@ p {
   position: relative;
 }
 .feet {
+  font-family: 'Squada One', cursive;
   text-align:center;
-  font-size: 8px;
+  font-size: 16px;
   color: #dddddd;
   margin 0 auto;
   bottom: 0;
