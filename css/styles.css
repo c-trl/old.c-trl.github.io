@@ -57,14 +57,13 @@ p {
   border-radius: 0px;
 }
 .main {
-  margin-top: 370px;
-  position: static;
+  position: relative;
 }
 .feet {
-    text-align:justify;
-    font-size: 8px;
-    color: #dddddd;
-  }
+  text-align:justify;
+  font-size: 8px;
+  color: #dddddd;
+}
 small {
   opacity: 50;
 }
