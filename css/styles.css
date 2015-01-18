@@ -57,14 +57,14 @@ p {
   border-radius: 0px;
 }
 .main {
-  margin-top: 340px;
+  margin: 340px 0 0 0;
   position: relative;
 }
 .feet {
   text-align:justify;
   font-size: 8px;
   color: #dddddd;
-  position: fixed;
+  
   bottom: 0;
 }
 small {
