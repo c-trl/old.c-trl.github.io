@@ -58,6 +58,7 @@ p {
 }
 .main {
   margin-top: 600px auto;
+  position: relative;
 }
 .feet {
     text-align:justify;
