@@ -24,6 +24,7 @@ h2 {
   text-align: center;
   color: #bbbbbb;
   margin: 0px 0 70px 0;
+  font-weight: 400;
 }
 p {
   color: #dddddd;
@@ -56,7 +57,7 @@ p {
   border-radius: 0px;
 }
 .main {
-  margin-top: 370px auto;
+  margin-top: 600px auto;
 }
 .feet {
     text-align:justify;
