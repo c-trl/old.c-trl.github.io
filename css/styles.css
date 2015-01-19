@@ -50,7 +50,12 @@ p {
   -webkit-transition-property: width, height; /* Safari */
   -webkit-transition-duration: 0.5s; /* Safari */
   transition-property: width, height;
-  transition-duration: 0.25s;
+  transition-duration: .5s;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
   opacity:.5;
 }
 .main:hover {
@@ -70,13 +75,8 @@ p {
 #zri{
   background-image: url("http://i.imgur.com/piEMNON.jpg");
 }
-#zri:hover{
- 
-}
 #nltk{
   background-image: url("http://i.imgur.com/Bc7Dsg1.jpg");
-  opacity: 0.4;
-  filter: alpha(opacity=40);
 }
 #dat13{
   background-image: url("http://i.imgur.com/XGZS1GO.jpg");
@@ -96,18 +96,12 @@ p {
 #ctrpredictor{
   background-image: url("http://bit.ly/1IOV9af");
   background-position: center;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
 }
 #hapcap{
   background-image: url("http://i.imgur.com/piEMNON.jpg");
-  opacity: 0.4;
-  filter: alpha(opacity=40);
 }
 #nbaprimetime{
   background-image: url("http://isportsweb.com/wp-content/uploads//2014/08/NBA-logo.jpg");
-  opacity: 0.4;
-  filter: alpha(opacity=40);
 }
 /* unvisited link */
 a:link {
