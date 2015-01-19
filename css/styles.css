@@ -110,9 +110,11 @@ p {
 }
 #ctrpredictor{
   background-image: url("http://bit.ly/1IOV9af");
+  background-position: top
 }
 #hapcap{
   background-image: url("http://i.imgur.com/xL9hDuf.png");
+  background-position:bottom;
 }
 #nbaprimetime{
   background-image: url("http://isportsweb.com/wp-content/uploads//2014/08/NBA-logo.jpg");
