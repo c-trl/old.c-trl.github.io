@@ -5,12 +5,23 @@ body {
   background: #343434;
 }
 div {
+  width: 500px;
   height: 175px;
   background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
   border-radius: 12px;
   font-weight: 700;
+  -webkit-transition-property: width, height; /* Safari */
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-property: width, height;
+  transition-duration: 0.25s;
+}
+div:hover {
+  background-image: url("http://i.imgur.com/Bc7Dsg1.jpg");
+  width: 600px;
+  height: 200px;
+  border-radius: 3px;
 }
 h1 {
   font-family: 'Squada One', cursive;
