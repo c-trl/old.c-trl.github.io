@@ -51,14 +51,14 @@ p {
   color:#ffffff;
   font-weight: 700;
   transition-property: width, height;
-  transition-duration: .45s;
+  transition-duration: .35s;
   -webkit-transition-property: width, height; /* Safari */
-  -webkit-transition-duration: 0.45s; /* Safari */
-  -webkit-transition: all 450ms ease;
-  -moz-transition: all 450ms ease;
-  -ms-transition: all 450ms ease;
-  -o-transition: all 450ms ease;
-  transition: all 450ms ease;
+  -webkit-transition-duration: 0.35s; /* Safari */
+  -webkit-transition: all 350ms ease;
+  -moz-transition: all 350ms ease;
+  -ms-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+  transition: all 350ms ease;
   opacity:.85;
   -webkit-filter: grayscale(75%);
   -webkit-filter: brightness(90%);
@@ -92,8 +92,8 @@ p {
   -webkit-filter: brightness(115%);
 }  
 #about:hover{
-  width:135px;
-  height:135px;
+  width:130px;
+  height:130px;
 }
 #zri{
   background-image: url("http://i.imgur.com/piEMNON.jpg");
@@ -133,11 +133,11 @@ a:link {
   -webkit-transition-duration: 0.5s; /* Safari */
   transition-property: width, height;
   transition-duration: .5s;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 /* visited link */
@@ -148,11 +148,11 @@ a:visited {
   -webkit-transition-duration: 0.5s; /* Safari */
   transition-property: width, height;
   transition-duration: .5s;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 /* mouse over link */
@@ -166,6 +166,7 @@ a:hover {
 a:active {
   color: #ffffff;
   text-decoration: none;
+  -webkit-filter: brightness(150%);
 }
 
 @media (max-width: 500px) {
