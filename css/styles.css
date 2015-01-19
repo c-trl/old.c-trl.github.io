@@ -8,7 +8,11 @@ body {
 	max-width: 600px;
 	background: #343434;
 	color: #eeeeee;
-	background-image: url('https://lh6.googleusercontent.com/-ZfsgtIryJoE/U_TBj5UWltI/AAAAAAAACVs/ep7EDTKHcZ8/w1556-h875-no/zNuNcrG.jpg')
+	background-image: url('https://lh6.googleusercontent.com/-ZfsgtIryJoE/U_TBj5UWltI/AAAAAAAACVs/ep7EDTKHcZ8/w1556-h875-no/zNuNcrG.jpg');
+	background-size: 100%
+	opacity:.65;
+	-webkit-filter: grayscale(35%);
+	
 }
 div {
 	position: relative;
