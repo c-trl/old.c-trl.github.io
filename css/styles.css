@@ -42,7 +42,6 @@ p {
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
 }
-{
 .about{
   -webkit-transition-property: width, height; /* Safari */
   -webkit-transition-duration: 0.5s; /* Safari */
@@ -57,7 +56,6 @@ p {
 .about:hover{
   width:140%;
   height:140%;
-
 }
 .main {
   height: 150px;
