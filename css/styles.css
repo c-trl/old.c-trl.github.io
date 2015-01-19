@@ -49,16 +49,16 @@ p {
   border-radius: 12px;
   color:#ffffff;
   font-weight: 700;
-  -webkit-transition-property: width, height; /* Safari */
-  -webkit-transition-duration: 0.5s; /* Safari */
   transition-property: width, height;
-  transition-duration: .5s;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-  opacity:.5;
+  transition-duration: .45s;
+  -webkit-transition-property: width, height; /* Safari */
+  -webkit-transition-duration: 0.45s; /* Safari */
+  -webkit-transition: all 450ms ease;
+  -moz-transition: all 450ms ease;
+  -ms-transition: all 450ms ease;
+  -o-transition: all 450ms ease;
+  transition: all 450ms ease;
+  opacity:.85;
   -webkit-filter: grayscale(50%);
 }
 .main:hover {
