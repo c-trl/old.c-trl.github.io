@@ -47,6 +47,7 @@ p {
   background-size: cover;
   background-position: center;
   border-radius: 12px;
+  color:#ffffff;
   font-weight: 700;
   -webkit-transition-property: width, height; /* Safari */
   -webkit-transition-duration: 0.5s; /* Safari */
