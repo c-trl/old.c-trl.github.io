@@ -60,7 +60,7 @@ p {
 }
 .main:hover {
   height: 300px;
-  border-radius: 30px;
+  border-radius: 18px;
   opacity:1;
 }
 .feet {
