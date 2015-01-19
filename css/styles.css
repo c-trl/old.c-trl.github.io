@@ -59,12 +59,12 @@ p {
   -o-transition: all 450ms ease;
   transition: all 450ms ease;
   opacity:.85;
-  -webkit-filter: grayscale(50%);
+  -webkit-filter: grayscale(30%);
   -webkit-filter: brightness(90%);
 }
 .main:hover {
   height: 300px;
-  color:#eeeeee;
+  color:#ffffff;
   border-radius: 18px;
   opacity:1;
   -webkit-filter: grayscale(0%);
