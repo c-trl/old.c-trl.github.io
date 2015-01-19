@@ -55,7 +55,7 @@ p {
 }
 .main:hover {
   height: 300px;
-  border-radius: 6px;
+  border-radius: 30px;
   opacity:1;
 }
 .feet {
