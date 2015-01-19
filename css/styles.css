@@ -46,7 +46,7 @@ p {
 .main {
   height: 150px;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   border-radius: 12px;
   color:#ffffff;
   font-weight: 700;
@@ -66,7 +66,6 @@ p {
 .main:hover {
   height: 300px;
   color:#ffffff;
-  background-position:top;
   border-radius: 18px;
   opacity:1;
   -webkit-filter: grayscale(0%);
