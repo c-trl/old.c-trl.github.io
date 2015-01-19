@@ -57,6 +57,7 @@ p {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
   opacity:.5;
+  -webkit-filter: grayscale(50%);
 }
 .main:hover {
   height: 300px;
@@ -112,7 +113,7 @@ p {
   background-position: center;
 }
 #hapcap{
-  background-image: url("http://i.imgur.com/piEMNON.jpg");
+  background-image: url("http://i.imgur.com/xL9hDuf.png");
 }
 #nbaprimetime{
   background-image: url("http://isportsweb.com/wp-content/uploads//2014/08/NBA-logo.jpg");
