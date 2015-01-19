@@ -116,10 +116,10 @@ a:active {
 	-webkit-filter: grayscale(0%);
 	-webkit-filter: brightness(120%);
 }
-.caption {
+caption {
 	opacity:0.0;
 }
-.caption:hover{
+caption:hover{
 	opacity:1;
 }
 .content{
