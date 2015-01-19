@@ -45,6 +45,7 @@ p {
 .main {
   height: 150px;
   background-size: cover;
+  background-position: center;
   border-radius: 12px;
   font-weight: 700;
   -webkit-transition-property: width, height; /* Safari */
@@ -95,22 +96,18 @@ p {
 }
 #dat13{
   background-image: url("http://i.imgur.com/XGZS1GO.jpg");
-  background-position: center;
 }
 #avatar{
   background-image: url("http://i.imgur.com/P9Vi3BH.jpg");
 }
 #electricity{
   background-image: url("http://bit.ly/1zoDFA8");
-  background-position: center;
 }
 #gasoline{
   background-image: url("http://bit.ly/1yqxr2B");
-  background-position: center;
 }
 #ctrpredictor{
   background-image: url("http://bit.ly/1IOV9af");
-  background-position: center;
 }
 #hapcap{
   background-image: url("http://i.imgur.com/xL9hDuf.png");
