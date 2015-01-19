@@ -54,8 +54,8 @@ p {
   transition: all 500ms ease;
 }  
 .about:hover{
-  width:140%;
-  height:140%;
+  width:40%;
+  height:40%;
 }
 .main {
   height: 150px;
