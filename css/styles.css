@@ -19,7 +19,6 @@ div {
   opacity:.5;
 }
 div:hover {
-  background-image: url("http://i.imgur.com/Bc7Dsg1.jpg");
   width: 600px;
   height: 200px;
   border-radius: 3px;
