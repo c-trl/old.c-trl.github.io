@@ -117,17 +117,20 @@ a:active {
 	-webkit-filter: brightness(120%);
 }
 caption {
-	opacity:0.0;
+	opacity: 0.0;
 }
 caption:hover{
-	opacity:1;
+	opacity:1 ;
+}
+date{
+	float: right;
 }
 .content{
 	height: 600px;
 }
 .feet {
 	font-family: 'Squada One', cursive;
-	text-align:center;
+	text-align: center;
 	font-size: 60px;
 	color: #dddddd;
 	margin 0 auto;
