@@ -12,26 +12,7 @@ div {
   margin: 40px 0 0 0;
   font-weight: 700;
 }
-.main {
-  position: relative;
-  width: 600px;
-  height: 150px;
-  background-size: cover;
-  margin: 40px 0 0 0;
-  border-radius: 12px;
-  font-weight: 700;
-  -webkit-transition-property: width, height; /* Safari */
-  -webkit-transition-duration: 0.5s; /* Safari */
-  transition-property: width, height;
-  transition-duration: 0.25s;
-  opacity:.5;
-}
-.main:hover {
-  width: 600px;
-  height: 300px;
-  border-radius: 3px;
-  opacity:1;
-}
+
 h1 {
   font-family: 'Squada One', cursive;
   text-align: center;
@@ -61,6 +42,22 @@ p {
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
 }
+.main {
+  height: 150px;
+  background-size: cover;
+  border-radius: 12px;
+  font-weight: 700;
+  -webkit-transition-property: width, height; /* Safari */
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-property: width, height;
+  transition-duration: 0.25s;
+  opacity:.5;
+}
+.main:hover {
+  height: 300px;
+  border-radius: 6px;
+  opacity:1;
+}
 .feet {
   font-family: 'Squada One', cursive;
   text-align:center;
@@ -81,44 +78,44 @@ small {
   opacity: 1;
 }
 
-.zri{
+#zri{
   background-image: url("http://i.imgur.com/piEMNON.jpg");
 }
-.zri:hover{
- background-image: url("http://buildiumcom.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/NYC-ZRI.png");
+#zri:hover{
+ 
 }
-.nltk{
+#nltk{
   background-image: url("http://i.imgur.com/Bc7Dsg1.jpg");
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
-.dat13{
+#dat13{
   background-image: url("http://i.imgur.com/XGZS1GO.jpg");
   background-position: center;
 }
-.avatar{
+#avatar{
   background-image: url("http://i.imgur.com/P9Vi3BH.jpg");
 }
-.electricity{
+#electricity{
   background-image: url("http://bit.ly/1zoDFA8");
   background-position: center;
 }
-.gasoline{
+#gasoline{
   background-image: url("http://bit.ly/1yqxr2B");
   background-position: center;
 }
-.ctrpredictor{
+#ctrpredictor{
   background-image: url("http://bit.ly/1IOV9af");
   background-position: center;
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
-.hapcap{
+#hapcap{
   background-image: url("http://i.imgur.com/piEMNON.jpg");
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
-.nbaprimetime{
+#nbaprimetime{
   background-image: url("http://isportsweb.com/wp-content/uploads//2014/08/NBA-logo.jpg");
   opacity: 0.4;
   filter: alpha(opacity=40);
