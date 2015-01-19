@@ -62,6 +62,7 @@ p {
 }
 .main:hover {
   height: 300px;
+  color:#eeeeee;
   border-radius: 18px;
   opacity:1;
 }
