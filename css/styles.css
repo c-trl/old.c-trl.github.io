@@ -165,7 +165,7 @@ a:visited {
 a:hover {
   color: #eeeeee;
   text-decoration: none;
-  -webkit-filter: brightness(110%);
+  -webkit-filter: brightness(190%);
 }
 
 /* selected link */
