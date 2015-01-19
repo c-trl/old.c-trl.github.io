@@ -60,12 +60,15 @@ p {
   transition: all 450ms ease;
   opacity:.85;
   -webkit-filter: grayscale(50%);
+  -webkit-filter: brightness(90%);
 }
 .main:hover {
   height: 300px;
   color:#eeeeee;
   border-radius: 18px;
   opacity:1;
+  -webkit-filter: grayscale(0%);
+  -webkit-filter: brightness(110%);
 }
 .feet {
   font-family: 'Squada One', cursive;
