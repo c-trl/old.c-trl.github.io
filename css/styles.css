@@ -139,8 +139,23 @@ a:active {
 	width:130px;
 	height:130px;
 }
+#home{
+	-webkit-transition-property: width, height; /* Safari */
+	-webkit-transition-duration: 0.5s; /* Safari */
+	transition-property: width, height;
+	transition-duration: .5s;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	-webkit-filter: brightness(115%);
+}
 #home:hover{
-	
+	width: 130px;
+	height:130px;
+	opacity:.85;
+	-webkit-filter: grayscale(50%);
 }
 #zri{
 	background-image: url("https://lh6.googleusercontent.com/-uNDT_Uoh7Dg/VCtAtyIRlgI/AAAAAAAADmc/o9HOgAGwXdg/s875-no/IMG_20140930_182224.jpg");
