@@ -2,7 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   max-width: 600px;
-  background: #eeeeee;
+  background: #343434;
+  color: #eeeeee;
 }
 div {
   position: relative;
