@@ -71,7 +71,14 @@ p {
   margin 0 auto;
   bottom: 0;
 }
-
+#face{
+  position: relative;
+  margin: 0 0 0 0;
+}
+#face:hover{
+  height:120%;
+  width:120%;
+}
 #zri{
   background-image: url("http://i.imgur.com/piEMNON.jpg");
 }
