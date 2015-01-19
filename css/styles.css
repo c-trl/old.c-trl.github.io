@@ -64,6 +64,9 @@ small {
 .zri{
   background-image: url("http://i.imgur.com/piEMNON.jpg");
 }
+.zri:hover{
+ background-image: url("http://buildiumcom.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/NYC-ZRI.png");
+}
 .nltk{
   background-image: url("http://i.imgur.com/Bc7Dsg1.jpg");
   opacity: 0.4;
