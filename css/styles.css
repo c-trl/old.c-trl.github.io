@@ -112,6 +112,9 @@ a:active {
 	-webkit-filter: grayscale(0%);
 	-webkit-filter: brightness(120%);
 }
+.content{
+	height: 600px;
+}
 .feet {
 	font-family: 'Squada One', cursive;
 	text-align:center;
