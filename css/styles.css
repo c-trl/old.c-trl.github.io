@@ -46,6 +46,9 @@ p {
 	-webkit-transition: height .5s;
 	-moz-transition: height .5s;
 }
+p:hover{
+	height: 60px;
+}
 a:link {
 	color: #999999;
 	text-decoration: none;
