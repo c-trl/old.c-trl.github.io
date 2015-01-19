@@ -69,7 +69,7 @@ p {
   border-radius: 18px;
   opacity:1;
   -webkit-filter: grayscale(0%);
-  -webkit-filter: brightness(110%);
+  -webkit-filter: brightness(120%);
 }
 .feet {
   font-family: 'Squada One', cursive;
@@ -89,6 +89,7 @@ p {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
+  -webkit-filter: brightness(115%);
 }  
 #about:hover{
   width:150px;
@@ -156,40 +157,41 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #eeeeee;
-    text-decoration: none;
+  color: #eeeeee;
+  text-decoration: none;
+  -webkit-filter: brightness(110%);
 }
 
 /* selected link */
 a:active {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 @media (max-width: 500px) {
   h1 {
-    color:#dddddd;
-    font-size: 50px;
-    margin-top: 20px;
-    line-height: 40px;
+  color:#dddddd;
+  font-size: 50px;
+  margin-top: 20px;
+  line-height: 40px;
   }
   h2 {
-    font-size: 20px;
-    margin: 20px 0 30px 0;
+  font-size: 20px;
+  margin: 20px 0 30px 0;
   }
   div {
-    margin: 20px 12px 0 12px;
+  margin: 20px 12px 0 12px;
   }
   p {
-    font-size: 20px;
-    line-height: 24px;
+  font-size: 20px;
+  line-height: 24px;
   }
   small {
-    font-size: 16px;
+  font-size: 16px;
   }
   feet {
-    text-align:justify;
-    font-size: 8px;
-    color: #dddddd;
+  text-align:justify;
+  font-size: 8px;
+  color: #dddddd;
   }
 }
