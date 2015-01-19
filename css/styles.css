@@ -165,14 +165,14 @@ a:visited {
 a:hover {
   color: #eeeeee;
   text-decoration: none;
-  -webkit-filter: brightness(190%);
+  -webkit-filter: brightness(110%);
 }
 
 /* selected link */
 a:active {
   color: #ffffff;
   text-decoration: none;
-  -webkit-filter: brightness(150%);
+  -webkit-filter: brightness(130%);
 }
 
 @media (max-width: 500px) {
