@@ -155,9 +155,9 @@ a:active {
 	-webkit-filter: brightness(115%);
 }
 #home:hover{
-	width: 130px;
-	height:130px;
-	opacity:.85;
+	width: 110px;
+	height:110px;
+	opacity:.75;
 	-webkit-filter: grayscale(50%);
 }
 #zri{
