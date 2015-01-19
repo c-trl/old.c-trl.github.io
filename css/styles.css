@@ -42,21 +42,6 @@ p {
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
 }
-.about{
-  -webkit-transition-property: width, height; /* Safari */
-  -webkit-transition-duration: 0.5s; /* Safari */
-  transition-property: width, height;
-  transition-duration: .5s;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}  
-.about:hover{
-  width:40%;
-  height:40%;
-}
 .main {
   height: 150px;
   background-size: cover;
@@ -86,7 +71,21 @@ p {
   margin 0 auto;
   bottom: 0;
 }
-
+#about{
+  -webkit-transition-property: width, height; /* Safari */
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-property: width, height;
+  transition-duration: .5s;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}  
+#about:hover{
+  width:40%;
+  height:40%;
+}
 #zri{
   background-image: url("http://i.imgur.com/piEMNON.jpg");
 }
