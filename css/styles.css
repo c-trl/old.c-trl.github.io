@@ -1,199 +1,202 @@
 
 
-										/* tag styles */
+						/* tag styles */
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 auto;
-  max-width: 600px;
-  background: #343434;
-  color: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	max-width: 600px;
+	background: #343434;
+	color: #eeeeee;
 }
 div {
-  position: relative;
-  width: 600px;
-  height: 150px;
-  background-size: cover;
-  margin: 40px 0 0 0;
-  font-weight: 700;
+	position: relative;
+	width: 600px;
+	height: 150px;
+	background-size: cover;
+	margin: 40px 0 0 0;
+	font-weight: 700;
 }
 h1 {
-  font-family: 'Squada One', cursive;
-  text-align: center;
-  font-size: 75px;
-  color: #eeeeee;
-  margin: 60px 0 0 0;
+	font-family: 'Squada One', cursive;
+	text-align: center;
+	font-size: 75px;
+	color: #eeeeee;
+	margin: 60px 0 0 0;
 }
 h2 {
-  text-align: center;
-  color: #bbbbbb;
-  margin: 0px 0 40px 0;
+	text-align: center;
+	color: #bbbbbb;
+	margin: 0px 0 40px 0;
 }
 p {
-  color: #dddddd;
-  background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  padding: 10px;
-  line-height: 28px;
-  text-align: justify;
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  height: 30px;
-  transition: height .5s;
-  -webkit-transition: height .5s;
-  -moz-transition: height .5s;
+	color: #dddddd;
+	background: black;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	padding: 10px;
+	line-height: 28px;
+	text-align: justify;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	height: 30px;
+	transition: height .5s;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
 }
 a:link {
-  color: #999999;
-  text-decoration: none;
-  -webkit-transition-property: width, height; /* Safari */
-  -webkit-transition-duration: 0.6s; /* Safari */
-  transition-property: width, height;
-  transition-duration: .6s;
-  -webkit-transition: all 600ms ease;
-  -moz-transition: all 600ms ease;
-  -ms-transition: all 600ms ease;
-  -o-transition: all 600ms ease;
-  transition: all 600ms ease;
+	color: #999999;
+	text-decoration: none;
+	-webkit-transition-property: width, height; /* Safari */
+	-webkit-transition-duration: 0.6s; /* Safari */
+	transition-property: width, height;
+	transition-duration: .6s;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
 }
 a:visited {
-  color: #999999;
-  text-decoration: none;
-  -webkit-transition-property: width, height; /* Safari */
-  -webkit-transition-duration: 0.6s; /* Safari */
-  transition-property: width, height;
-  transition-duration: .6s;
-  -webkit-transition: all 600ms ease;
-  -moz-transition: all 600ms ease;
-  -ms-transition: all 600ms ease;
-  -o-transition: all 600ms ease;
-  transition: all 600ms ease;
+	color: #999999;
+	text-decoration: none;
+	-webkit-transition-property: width, height; /* Safari */
+	-webkit-transition-duration: 0.6s; /* Safari */
+	transition-property: width, height;
+	transition-duration: .6s;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
 }
 a:hover {
-  color: #eeeeee;
-  text-decoration: none;
-  -webkit-filter: brightness(110%);
+	color: #eeeeee;
+	text-decoration: none;
+	-webkit-filter: brightness(110%);
 }
 a:active {
+	color: #ffffff;
+	text-decoration: none;
+	-webkit-filter: brightness(130%);
+}
 
-										/* class styles */
+					/* class styles */
 
 .main {
-  height: 150px;
-  background-size: cover;
-  border-radius: 12px;
-  color:#ffffff;
-  font-weight: 700;
-  transition-property: width, height;
-  transition-duration: .2s;
-  -webkit-transition-property: width, height; /* Safari */
-  -webkit-transition-duration: 0.2s; /* Safari */
-  -webkit-transition: all 200ms ease;
-  -moz-transition: all 200ms ease;
-  -ms-transition: all 200ms ease;
-  -o-transition: all 200ms ease;
-  transition: all 200ms ease;
-  opacity:.85;
-  -webkit-filter: grayscale(75%);
-  -webkit-filter: brightness(90%);
+	height: 150px;
+	background-size: cover;
+	border-radius: 12px;
+	color:#ffffff;
+	font-weight: 700;
+	transition-property: width, height;
+	transition-duration: .2s;
+	-webkit-transition-property: width, height; /* Safari */
+	-webkit-transition-duration: 0.2s; /* Safari */
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	opacity:.85;
+	-webkit-filter: grayscale(75%);
+	-webkit-filter: brightness(90%);
 }
 .main:hover {
-  height: 330px;
-  color:#ffffff;
-  border-radius: 18px;
-  opacity:1;
-  -webkit-filter: grayscale(0%);
-  -webkit-filter: brightness(120%);
+	height: 330px;
+	color:#ffffff;
+	border-radius: 18px;
+	opacity:1;
+	-webkit-filter: grayscale(0%);
+	-webkit-filter: brightness(120%);
 }
 .feet {
-  font-family: 'Squada One', cursive;
-  text-align:center;
-  font-size: 60px;
-  color: #dddddd;
-  margin 0 auto;
-  bottom: 0;
+	font-family: 'Squada One', cursive;
+	text-align:center;
+	font-size: 60px;
+	color: #dddddd;
+	margin 0 auto;
+	bottom: 0;
 }
 
-										/* id styles */
+					/* id styles */
 
 #about{
-  -webkit-transition-property: width, height; /* Safari */
-  -webkit-transition-duration: 0.5s; /* Safari */
-  transition-property: width, height;
-  transition-duration: .5s;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-  -webkit-filter: brightness(115%);
+	-webkit-transition-property: width, height; /* Safari */
+	-webkit-transition-duration: 0.5s; /* Safari */
+	transition-property: width, height;
+	transition-duration: .5s;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	-webkit-filter: brightness(115%);
 }  
 #about:hover{
-  width:130px;
-  height:130px;
+	width:130px;
+	height:130px;
+}
+#home:hover{
+	
 }
 #zri{
-  background-image: url("https://lh6.googleusercontent.com/-uNDT_Uoh7Dg/VCtAtyIRlgI/AAAAAAAADmc/o9HOgAGwXdg/s875-no/IMG_20140930_182224.jpg");
-background-position:center;
+	background-image: url("https://lh6.googleusercontent.com/-uNDT_Uoh7Dg/VCtAtyIRlgI/AAAAAAAADmc/o9HOgAGwXdg/s875-no/IMG_20140930_182224.jpg");
+	background-position:center;
 }
 #nltk{
-  background-image: url("https://lh5.googleusercontent.com/-1WRQC8fpkHA/U5oRwxBxslI/AAAAAAAABCo/0Hl7iBrRjPI/w1556-h875-no/20140612_154431.jpg");
-  background-position:top;
+	background-image: url("https://lh5.googleusercontent.com/-1WRQC8fpkHA/U5oRwxBxslI/AAAAAAAABCo/0Hl7iBrRjPI/w1556-h875-no/20140612_154431.jpg");
+	background-position:top;
 }
 #dat13{
-  background-image: url("http://i.imgur.com/XGZS1GO.jpg");
-  background-position:center;
+	background-image: url("http://i.imgur.com/XGZS1GO.jpg");
+	background-position:center;
 }
 #avatar{
-  background-image: url("http://i.imgur.com/60wnSDf.jpg");
-  background-position:center;
+	background-image: url("http://i.imgur.com/60wnSDf.jpg");
+	background-position:center;
 }
 #electricity{
-  background-image: url("https://lh5.googleusercontent.com/-D195QTtFjME/U_zpMAoiOsI/AAAAAAAACj4/KSZSWW8SRXU/s875-no/IMG_20140826_152651.jpg");
-  background-position:center;
+	background-image: url("https://lh5.googleusercontent.com/-D195QTtFjME/U_zpMAoiOsI/AAAAAAAACj4/KSZSWW8SRXU/s875-no/IMG_20140826_152651.jpg");
+	background-position:center;
 }
 #gasoline{
-  background-image: url("http://bit.ly/1yqxr2B");
-  background-position: center;
+	background-image: url("http://bit.ly/1yqxr2B");
+	background-position: center;
 }
 #ctrpredictor{
-  background-image: url("http://bit.ly/1IOV9af");
+	background-image: url("http://bit.ly/1IOV9af");
 }
 #hapcap{
-  background-image: url("https://lh3.googleusercontent.com/-E9ZUGcTEUJ4/U5oUWIt0OyI/AAAAAAAABDw/hk_0tx2MdTI/w492-h875-no/20140612_155104.jpg");
-  background-position: center;
+	background-image: url("https://lh3.googleusercontent.com/-E9ZUGcTEUJ4/U5oUWIt0OyI/AAAAAAAABDw/hk_0tx2MdTI/w492-h875-no/20140612_155104.jpg");
+	background-position: center;
   
 }
 #nbaprimetime{
-  background-image: url("http://isportsweb.com/wp-content/uploads//2014/08/NBA-logo.jpg");
-  background-position: top;
+	background-image: url("http://isportsweb.com/wp-content/uploads//2014/08/NBA-logo.jpg");
+	background-position: top;
 }
 
-  color: #ffffff;
-  text-decoration: none;
-  -webkit-filter: brightness(130%);
-}
 
 
 @media (max-width: 500px) {
-  h1 {
-  color:#dddddd;
-  font-size: 50px;
-  margin-top: 20px;
-  line-height: 40px;
-  }
-  h2 {
-  font-size: 20px;
-  margin: 20px 0 30px 0;
-  }
-  div {
-  margin: 20px 12px 0 12px;
-  }
-  p {
-  font-size: 20px;
-  line-height: 24px;
-  }
+h1 {
+	color:#dddddd;
+	font-size: 50px;
+	margin-top: 20px;
+	line-height: 40px;
+}
+h2 {
+	font-size: 20px;
+	margin: 20px 0 30px 0;
+}
+div {
+	margin: 20px 12px 0 12px;
+}
+p {
+	font-size: 20px;
+	line-height: 24px;
+}
 }
