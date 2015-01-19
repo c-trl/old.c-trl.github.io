@@ -42,7 +42,7 @@ p {
 	margin: 0;
 	padding: 10px 0 10px 10px;
 	height: 30px;
-	width: 600px;
+	width: 580px;
 	transition: height .5s;
 	-webkit-transition: height .5s;
 	-moz-transition: height .5s;
@@ -116,14 +116,11 @@ a:active {
 	-webkit-filter: grayscale(0%);
 	-webkit-filter: brightness(120%);
 }
-caption {
+.caption {
 	opacity: 0.0;
 }
-caption:hover{
+.caption:hover{
 	opacity:1 ;
-}
-date{
-	float: right;
 }
 .content{
 	height: 600px;
