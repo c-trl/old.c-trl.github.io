@@ -47,9 +47,6 @@ p {
 	-webkit-transition: height .5s;
 	-moz-transition: height .5s;
 }
-p:hover{
-	height: 90px;
-}
 a:link {
 	color: #999999;
 	text-decoration: none;
@@ -115,12 +112,6 @@ a:active {
 	opacity:1;
 	-webkit-filter: grayscale(0%);
 	-webkit-filter: brightness(120%);
-}
-.caption {
-	opacity: 0.0;
-}
-.caption:hover{
-	opacity:1 ;
 }
 .content{
 	height: 600px;
