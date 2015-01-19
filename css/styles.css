@@ -83,8 +83,8 @@ p {
   transition: all 500ms ease;
 }  
 #about:hover{
-  width:105%;
-  height:105%;
+  width:150px;
+  height150px%;
 }
 #zri{
   background-image: url("http://i.imgur.com/piEMNON.jpg");
