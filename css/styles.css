@@ -63,7 +63,7 @@ p {
   -webkit-filter: brightness(90%);
 }
 .main:hover {
-  height: 300px;
+  height: 330px;
   color:#ffffff;
   border-radius: 18px;
   opacity:1;
