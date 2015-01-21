@@ -140,12 +140,11 @@ img.content{
 }
 .wrapper {
     min-height: 100%;
-    margin: 0 auto -130px;
+    margin: 0 auto 20px;
 }
 .push {
-    height: 130px; /* .push must be the same height as .footer */
+    height: 10px; /* .push must be the same height as .footer */
 }
-
 
 
 					/* id styles */
