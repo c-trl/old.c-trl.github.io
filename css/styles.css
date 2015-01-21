@@ -11,6 +11,7 @@ body {
 }
 div {
 	position: relative;
+	margin: 40px;
 }
 h1 {
 	font-family: 'Squada One', cursive;
