@@ -1,5 +1,3 @@
-
-
 						/* tag styles */
 
 a:link {
@@ -61,10 +59,15 @@ h2 {
 	color: #ffffff;
 	margin: 0px 0 40px 0;
 }
-img {
-    margin: 40px auto;
+header{
+    height:100%
 }
-
+img {
+    margin: 0px auto;
+}
+p {
+    margin: 0 0 0 0;
+}
 
 					/* class styles */
 
