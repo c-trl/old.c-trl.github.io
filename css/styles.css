@@ -25,6 +25,9 @@ h2 {
 	color: #bbbbbb;
 	margin: 0px 0 40px 0;
 }
+img {
+    margin: 40px;
+}
 a:link {
 	color: #999999;
 	text-decoration: none;
