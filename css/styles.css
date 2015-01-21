@@ -140,10 +140,10 @@ img.content{
 }
 .wrapper {
     min-height: 100%;
-    margin: 0 auto 20px;
+    margin: 0 auto -130px;
 }
 .push {
-    height: 10px; /* .push must be the same height as .footer */
+    height: 130px; /* .push must be the same height as .footer */
 }
 
 
