@@ -89,8 +89,12 @@ p {
 	-webkit-transition: height .5s;
 	-moz-transition: height .5s;
 }
-.content{
-	border: 3px solid #000000;
+.content {
+    margin: 20px auto;
+}
+img.content{
+	border: 3px solid #111111;
+	margin: 40px auto;
 }
 .feet {
 	font-family: 'Squada One', cursive;
@@ -98,7 +102,6 @@ p {
 	font-size: 50px;
 	color: #dddddd;
 	height: 120px
-
 }
 .main {
 	width: 600px;
