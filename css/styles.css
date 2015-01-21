@@ -95,7 +95,7 @@ img {
 	font-size: 60px;
 	color: #dddddd;
 	margin 40px auto;
-	bottom: 20px;
+	bottom: 0;
 }
 .main {
 	width: 600px;
