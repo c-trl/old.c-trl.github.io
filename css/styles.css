@@ -105,7 +105,7 @@ a:active {
 	opacity:.85;
 	-webkit-filter: grayscale(75%);
 	-webkit-filter: brightness(90%);
-	-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), to(rgba(0, 0, 0, 0)))
+	-webkit-linear-gradient(left top, left bottom, (rgba(255, 255, 255, 1), (rgba(0, 0, 0, 0)));
 }
 .main:hover {
 	height: 330px;
@@ -114,6 +114,7 @@ a:active {
 	opacity:1;
 	-webkit-filter: grayscale(0%);
 	-webkit-filter: brightness(120%);
+	-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), to(rgba(0, 0, 0, 0)))
 }
 .content{
 	border: 3px solid #000000;
