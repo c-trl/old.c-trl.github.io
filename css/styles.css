@@ -71,6 +71,8 @@ p {
 
 					/* class styles */
 
+			/* class styles */
+
 .caption {
 	color: #dddddd;
 	background: black;
@@ -93,7 +95,7 @@ p {
     margin: 20px auto;
 }
 img.content{
-	border: 3px solid #111111;
+	border: 3px solid #222222;
 	margin: 40px auto;
 }
 .feet {
@@ -101,7 +103,8 @@ img.content{
 	text-align: center;
 	font-size: 50px;
 	color: #dddddd;
-	height: 120px
+	height: 130px
+
 }
 .main {
 	width: 600px;
@@ -137,11 +140,12 @@ img.content{
 }
 .wrapper {
     min-height: 100%;
-    margin: 0 auto -40px;
+    margin: 0 auto 20px;
 }
 .push {
-    height: 40px; /* .push must be the same height as .footer */
+    height: 10px; /* .push must be the same height as .footer */
 }
+
 
 
 					/* id styles */
