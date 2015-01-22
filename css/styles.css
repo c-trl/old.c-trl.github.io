@@ -98,8 +98,12 @@ p.content{
 	margin: 16px auto 16px;
 }
 img.content{
-	border: 3px solid #222222;
-	margin: 40px auto;
+	border: 3px solid #111111;
+	margin: 30px auto;
+	text-align: center;
+}
+.content-image{
+    text-align: center;
 }
 .feet {
 	font-family: 'Squada One', cursive;
