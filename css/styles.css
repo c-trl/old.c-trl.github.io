@@ -249,6 +249,10 @@ p {
 }
 
 @media (max-width: 320px) {
+hr{
+	length: 290px;
+}
+
 h1 {
 	font-family: 'Squada One', cursive;
 	color:#dddddd;
