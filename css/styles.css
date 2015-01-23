@@ -102,7 +102,7 @@ img.content{
 	width:100%;
 }
 img.content:hover{
-	-webkit-filter: brightness(0%);
+	-webkit-filter: brightness(100%);
 }
 img.hold{
 	width:auto;
