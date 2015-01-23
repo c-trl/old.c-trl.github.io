@@ -90,13 +90,16 @@ p {
 	-moz-transition: height .5s;
 }
 .content {
-    margin: 20px auto;
+	margin: 20px auto;
 }
 .content:hover {
-	-webkit-filter: brightness(100%);
+	-webkit-filter: brightness(0);
 }
 p.content{
 	margin: 16px auto 16px;
+}
+p.content:hover{
+	-webkit-filter: brightness(0);
 }
 img.content{
 	border: 3px solid #111111;
@@ -105,7 +108,7 @@ img.content{
 	width:100%;
 }
 img.content:hover{
-	-webkit-filter: brightness(100%);
+	-webkit-filter: brightness(0);
 }
 img.hold{
 	width:auto;
