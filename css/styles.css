@@ -86,7 +86,7 @@ p {
 	margin: 0;
 	padding: 10px 0 10px 10px;
 	height: 30px;
-	width: 590px;
+	width: 790px;
 	transition: height .5s;
 	-webkit-transition: height .5s;
 	-moz-transition: height .5s;
@@ -114,7 +114,7 @@ img.content{
 
 }
 .main {
-	width: 600px;
+	width: 800px;
 	height: 150px;
 	background-size: cover;
 	margin: 40px 0 0 0;
