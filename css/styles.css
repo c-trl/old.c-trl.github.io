@@ -133,8 +133,9 @@ img.content{
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 	opacity:.85;
-	-webkit-filter: grayscale(100%);
-	
+	-webkit-filter: brightness(100%);
+	-webkit-filter: grayscale(85%);
+
 }
 .main:hover {
 	height: 330px;
