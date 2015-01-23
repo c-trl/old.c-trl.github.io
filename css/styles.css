@@ -227,6 +227,21 @@ img.content{
 	background-position: top;
 }
 
+@media (max-width: 1024px) {
+h1 {
+
+}
+h2 {
+
+}
+div {
+
+}
+p {
+
+	padding: 0 30px 0 30px;
+}
+}
 @media (max-width: 720px) {
 h1 {
 	font-family: 'Squada One', cursive;
