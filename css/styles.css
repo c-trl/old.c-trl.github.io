@@ -92,7 +92,7 @@ p {
 .content {
     margin: 20px auto;
 }
-.conten:hover {
+.content:hover {
 	-webkit-filter: brightness(100%);
 }
 p.content{
@@ -103,6 +103,9 @@ img.content{
 	margin: 30px auto;
 	text-align: center;
 	width:100%;
+}
+img.content:hover{
+	-webkit-filter: brightness(100%);
 }
 img.hold{
 	width:auto;
