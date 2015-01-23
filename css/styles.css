@@ -67,7 +67,8 @@ img {
     width:100%;
 }
 img.hold{
-	width:auto;
+	max-width:auto;
+	min-width:100%;
 	
 }
 p {
