@@ -227,7 +227,7 @@ img.content{
 	background-position: top;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 580px) {
 h1 {
 	color:#dddddd;
 	font-size: 30px;
