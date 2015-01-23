@@ -47,7 +47,7 @@ div {
 	position: relative;
 }
 h1 {
-	font-family: 'Squada One', cursive;
+	font-family: 'Knewave', cursive;
 	text-align: center;
 	position: relative;
 	font-size: 75px;
@@ -229,6 +229,7 @@ img.content{
 
 @media (max-width: 580px) {
 h1 {
+	font-family: 'Knewave', cursive;
 	color:#dddddd;
 	font-size: 30px;
 	margin-top: 20px;
@@ -239,7 +240,7 @@ h2 {
 	margin: 20px 0 30px 0;
 }
 div {
-	margin: 20px 10px 0 10px;
+	margin: 20px;
 }
 p {
 	font-size: 20px;
