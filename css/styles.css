@@ -94,6 +94,9 @@ p {
 .content {
     margin: 20px auto;
 }
+.conten:hover {
+		-webkit-filter: brightness(100%);
+}
 p.content{
 	margin: 16px auto 16px;
 }
