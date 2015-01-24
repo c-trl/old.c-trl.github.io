@@ -14,7 +14,7 @@ a:link {
 	transition: all 600ms ease;
 }
 a:visited {
-	color: #999999;
+	colorm: #999999;
 	text-decoration: none;
 }
 a:hover {
@@ -132,7 +132,7 @@ img.hold{
 	transition: all 200ms ease;
 	opacity:.85;
 	-webkit-filter: brightness(100%);
-	-webkit-filter: grayscale(50%);
+	-webkit-filter: grayscale(40%);
 
 }
 .main:hover {
