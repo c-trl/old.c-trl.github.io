@@ -14,7 +14,7 @@ a:link {
 	transition: all 600ms ease;
 }
 a:visited {
-	colorm: #999999;
+	color: #999999;
 	text-decoration: none;
 }
 a:hover {
