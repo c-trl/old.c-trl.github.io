@@ -116,7 +116,6 @@ img.hold{
 	height: 150px;
 	background-size: cover;
 	margin: 40px 0 0 0;
-	height: 150px;
 	background-size: cover;
 	border-radius: 12px;
 	color:#ffffff;
@@ -137,10 +136,9 @@ img.hold{
 }
 .main-pending {
 	width: 800px;
-	height: 40px;
+	height: 100px;
 	background-size: cover;
 	margin: 40px 0 0 0;
-	height: 150px;
 	background-size: cover;
 	border-radius: 12px;
 	color:#ffffff;
