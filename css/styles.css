@@ -132,7 +132,7 @@ img.hold{
 	transition: all 200ms ease;
 	opacity:.85;
 	-webkit-filter: brightness(100%);
-	-webkit-filter: grayscale(65%);
+	-webkit-filter: grayscale(50%);
 
 }
 .main:hover {
