@@ -113,7 +113,7 @@ img.hold{
 }
 .main {
 	width: 800px;
-	height: 120px;
+	height: 150px;
 	background-size: cover;
 	margin: 40px 0 0 0;
 	height: 150px;
@@ -132,7 +132,31 @@ img.hold{
 	transition: all 200ms ease;
 	opacity:.85;
 	-webkit-filter: brightness(100%);
-	-webkit-filter: grayscale(40%);
+	-webkit-filter: grayscale(30%);
+
+}
+.main-pending {
+	width: 800px;
+	height: 100px;
+	background-size: cover;
+	margin: 40px 0 0 0;
+	height: 150px;
+	background-size: cover;
+	border-radius: 12px;
+	color:#ffffff;
+	font-weight: 700;
+	transition-property: width, height;
+	transition-duration: .2s;
+	-webkit-transition-property: width, height; /* Safari */
+	-webkit-transition-duration: 0.2s; /* Safari */
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	opacity:.85;
+	-webkit-filter: brightness(100%);
+	-webkit-filter: grayscale(100%);
 
 }
 .main:hover {
@@ -196,37 +220,30 @@ img.hold{
 #nlp{
 	background-image: url("https://lh5.googleusercontent.com/-1WRQC8fpkHA/U5oRwxBxslI/AAAAAAAABCo/0Hl7iBrRjPI/w1556-h875-no/20140612_154431.jpg");
 	background-position:top;
-	-webkit-filter: grayscale(100%);
 }
 #colorcode{
 	background-image: url("https://lh3.googleusercontent.com/-tji8VQl9LJ0/VAFj1o916pI/AAAAAAAACps/_AaIUZilBuI/s875-no/IMG_20140829_214910.jpg");
 	background-position:center;
-	-webkit-filter: grayscale(100%);
 }
 #avatar{
 	background-image: url("http://i.imgur.com/60wnSDf.jpg");
 	background-position:center;
-	-webkit-filter: grayscale(100%);
 }
 #electricity{
 	background-image: url("https://lh5.googleusercontent.com/-D195QTtFjME/U_zpMAoiOsI/AAAAAAAACj4/KSZSWW8SRXU/s875-no/IMG_20140826_152651.jpg");
 	background-position:center;
-	-webkit-filter: grayscale(100%);
 }
 #gasoline{
 	background-image: url("http://bit.ly/1yqxr2B");
 	background-position: center;
-	-webkit-filter: grayscale(100%);
 }
 #hapcap{
 	background-image: url("https://lh3.googleusercontent.com/-E9ZUGcTEUJ4/U5oUWIt0OyI/AAAAAAAABDw/hk_0tx2MdTI/w492-h875-no/20140612_155104.jpg");
 	background-position: center;
-	-webkit-filter: grayscale(100%);
 }
 #nbaprimetime{
 	background-image: url("http://isportsweb.com/wp-content/uploads//2014/08/NBA-logo.jpg");
 	background-position: top;
-	-webkit-filter: grayscale(100%);
 }
 
 @media (max-width: 1024px) {
