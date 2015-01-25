@@ -172,7 +172,7 @@ img.hold{
 	border-radius: 18px;
 	opacity:1;
 	-webkit-filter: grayscale(100%);
-	-webkit-filter: brightness(20%);
+	-webkit-filter: brightness(100%);
 	-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), to(rgba(0, 0, 0, 0)))
 }
 .wrapper {
