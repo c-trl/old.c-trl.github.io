@@ -131,7 +131,7 @@ img.hold{
 	transition: all 200ms ease;
 	opacity:.85;
 	-webkit-filter: brightness(100%);
-	-webkit-filter: grayscale(30%);
+	-webkit-filter: grayscale(20%);
 
 }
 .main-pending {
