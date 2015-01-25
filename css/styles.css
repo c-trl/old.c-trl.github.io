@@ -171,8 +171,8 @@ img.hold{
 	color:#ffffff;
 	border-radius: 18px;
 	opacity:1;
-	-webkit-filter: grayscale(0%);
-	-webkit-filter: brightness(120%);
+	-webkit-filter: grayscale(50%);
+	-webkit-filter: brightness(100%);
 	-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), to(rgba(0, 0, 0, 0)))
 }
 .wrapper {
