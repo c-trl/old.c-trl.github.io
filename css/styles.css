@@ -62,6 +62,20 @@ p {
 
 					/* class styles */
 
+.bloghead {
+	width: 800px;
+	height: 160px;
+	background-size: cover;
+	margin: 40px 0 0 0;
+	background-size: cover;
+	border-radius: 12px;
+	color:#ffffff;
+	font-weight: 700;
+	-webkit-filter: brightness(100%);
+	-webkit-filter: grayscale(20%);
+
+}
+
 .caption {
 	color: #dddddd;
 	background: black;
@@ -250,6 +264,10 @@ img.hold{
 }
 #nbaprimetime{
 	background-image: url("http://isportsweb.com/wp-content/uploads//2014/08/NBA-logo.jpg");
+	background-position: top;
+}
+#020115{
+	background-image: url("http://www.halflife2.net/news_images/201103/1299105779_Portal-2-screenshots-081.jpg");
 	background-position: top;
 }
 
