@@ -100,9 +100,6 @@ p.blogcaption{
 	-webkit-transition: height .5s;
 	-moz-transition: height .5s;
 }
-.content {
-	margin: 20px auto;
-}
 p.content{
 	margin: 16px auto 16px;
 }
