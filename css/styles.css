@@ -75,14 +75,13 @@ p {
 	-webkit-filter: grayscale(20%);
 }
 .blogcaption{
-    color: #333333;
-    font-size: 9px;
+	color: #333333;
+	font-size: 9px;
     background: white;
   	padding: 5px 5px 5px 5px;
   	border: 3px solid #111111;
   	margin: -20px auto 30px;
 	text-align: center;
-	width:100%;
 }
 .caption {
 	color: #dddddd;
