@@ -292,6 +292,15 @@ p {
 
 	padding: 0 30px 0 30px;
 }
+.blogcaption{
+	color: #333333;
+	font-size: 9px;
+	background: white;
+  	border: 3px solid #111111;
+	margin: -30px auto 30px;
+	text-align: center;
+	width: 100%;
+}
 }
 @media (max-width: 720px) {
 h1 {
@@ -316,6 +325,10 @@ div {
 p {
 	font-size: 20px;
 	line-height: 24px;
+	padding: 0 30px 0 30px;
+}
+.blogcaption{
+	font-size: 12px;
 	padding: 0 30px 0 30px;
 }
 }
@@ -347,6 +360,10 @@ p {
 	font-size: 14px;
 	line-height: 24px;
 	margin: 20px;
+	padding: 0 15px 0 15px;
+}
+.blogcaption{
+	font-size: 12px;
 	padding: 0 15px 0 15px;
 }
 }
