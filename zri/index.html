@@ -1,103 +1,72 @@
-
-
-<!DOCTYPE html>
-<head>
-
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-50124410-3', 'auto');
-	ga('require', 'displayfeatures');
-	ga('send', 'pageview');
-</script>
-
-<meta charset="utf-8">
-<meta content="http://christiantirol.com/" property="og:url">
-
-<link rel="shortcut icon" href="http://bobdawg.org/images/ico/Link_Vista.ico">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/cs'>
-<link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/css/styles.css">
-
-</head>
-<!--
-
-
-
-
-
-The great divide.
-
-
-
-
-
-
-
--->
-<body>
-
-
-
-<!----- b e g i n :  h e a d e r ----->
-
-<header>
-<h1><a href="http://c-trl.github.io"><img src="http://i.imgur.com/LwlUX5h.png" id="home" height=120px width=120px></a>
-<p>zillow rent index</h1></p>
-<h2>using python to compare and analyze zri data</h2>
-</header>
-
-<!----- b e g i n :  m a i n ----->
-
-<hr>
 <div class="content">
 <!--PREMISE-->
-<p class="content">Working in any urban area has its perks.  Commuting is not one of them.</p>
+<p class="content">
+<h3>Working in any urban area certainly has its perks.</h3>
+You're not forced to only Chipotle and Starbucks for lunch.  The scenery is more than just the glamorous architectural ingenuity of an office park.  There are far more things to spend your time on outside of work, the gym, and at home pretending you know how to play the guitar.  Establishing yourself as a proud citizen of urban living has been a trope in Americana for as long as urbanization itself.  I can't say I've seen a cliche where the main character of a movie says to his best friend "You know, I dream of making it out in the big farm."
+</p>
 
-<p class="content">For the un-established young professional looking to make it in a big city, commuting can be one of the tougher parts of urban living.  With this in mind, a trade-off needs to be made between time and money spent on traveling versus resources spent on not traveling.  Does a short commute justify expensive living conditions?  Does a comfortably affordable living condition justify a long commute?</p>
+<p class="content">
+Among all the great things about working in/living in/ being near a big city is great.  Personally, I'm lucky to have grown up and lived in the Greater New York area.  However, while being in any urban area has its perks, commuting isn't necessarily one of them.  The need to commute comes from a trade-off between "How much am I willing to spend on where I live?", and "How much am I willing to spend on my commute to work?"
+</p>
 
-<p class="content">Everyone has their own acceptable trade-offs and balances, however I became interested in visualizing one side of that balance in rent prices.  In particular, I was interested in levels in New Jersey.<p>
-<!--INTRO-->
-<p class="content">To do this, I used Python to work with Zillow's ZRI data.  I was excited to use the Zillow Rent Index (ZRI) data because of Zillow's smoothing methodology to calculate their 'Zestimates' (wasn't as excited about their terminology).  Zillow applies a 3-month moving average along with other adjustments to normalize their data.  Working with this data seemed like a lot more fun than pulling numbers off of a government database.<p>
+<p class="content">
+In New York City especially, you're either going to bite the bullet and pay out the ass for a relatively cushy place, pay what everyone else pays for a box with a door and a window, or commute into the city for cheaper rent. 
+</p>
+
+<p class="content">
+Everyone has their own acceptable balance in trade-offs, however I became interested in finding out what rent trends have been like - in New Jersey in particular (<a href=" http://www.nytimes.com/2014/08/24/realestate/moving-out-of-brooklyn-because-of-high-prices.html">this article I read last year from the New York Times was what spurned my curiousity</a>).  I decided to find out how much rental property has been worth throughout New Jersey.
+</p>
+
+<p class="content">
+<h3>To do this, I started out by looking for some good data.</h3>
+I found that Zillow's ZRI (Zillow Rent Index) data was quite interesting.  ZRI is established by utilizing a number of smoothing methods such as a three-month moving average to calculate their "Zestimates" (wasn't as excited about their terminology).  I used Python and pandas to set up the data on New Jersey I downloaded from Zillow's site, and used matplotlib to throw up some fancy graphs.
+</p>
+
 <!--INITIAL FINDINGS-->
 <p class="content">After sorting through New Jersey data, I was not surprised to find that Hoboken is, by a long shot, New Jersey's most expensive city to rent in (going by $ per square foot).  Favorable commuting distance to New York City, proximity to 2 New Jersey state highways and 2 Interstate highways, and some of New Jersey's better night life - it's no surprise Hoboken has the highest $ per square foot levels in New Jersey.</p>
 
 
-<!--TOP 20: BAR-->
 
+<!--TOP 20: BAR-->
 <p class="content-image"><a href="http://i.imgur.com/DU4XRLY.png" target="_blank">
 <img class="content" src="http://i.imgur.com/DU4XRLY.png" width=600px></a></p>
+<p class="blogcaption">Favorable commuting distance to New York City, proximity to 2 New Jersey state highways and 2 Interstate highways, and some of New Jersey's better night life - it's no surprise Hoboken has the highest $ per square foot levels in New Jersey.</p>
+
 
 
 <!--TOP 10: LINE-->
 
+<p class="content">A comparison of the top 10 areas in New Jersey by $ per square foot illustrate the deviations in Hoboken and Sea Isle City.  Aside from those two areas, property value in the upper tier seem to follow a consistent upward trend.  This can represent a slowly growing confidence in the economy, as property value would not increase if there was no demand to meet.  In regards to Sea Isle City, the huge dip and spike in property value caught my interest right away.  The dip and spike happened before Hurricane Sandy (October 2012).  I tried digging up some news on the area during that time but didn't find much after my first go.  The area is an island along the Jersey Shore, so it's safe to assume rental activity there is high, but what makes it unique among the other areas is left to be uncovered in this quick study.</p>
+
 <p class="content-image"><a href="http://i.imgur.com/COqc64k.png" target="_blank">
 <img class="content" src="http://i.imgur.com/COqc64k.png" width=600px></p></a>
+<p class="blogcaption">A comparison of the top 10 areas in New Jersey by $ per square foot illustrate the deviations in Hoboken and Sea Isle City.</p>
 
-<p class="content">A comparison of most of the state's county seats gives a state-wide picture of the varying degrees (or lack thereof) in median rent levels throughout the state.  </p>
 
 
 <!--COUNTY SEATS: BAR-->
+<p class="content">To get a quick sense of what rental property value levels are like throughout different regions in the state, I picked out New Jersey county seats to represent various areas in the state.  The datasets I used did not contain all of the county seats, so I substituted Freehold, Hackensack, and Mount Holly with Freehold Township, Hasbrouck Heights, Eastampton.</p>
 
 <p class="content-image"><a href="http://i.imgur.com/zVY3Mhr.png" target="_blank">
 <img class="content" src="http://i.imgur.com/zVY3Mhr.png" width=600px></a></p>
 
-<p class="content">Consistencies throughout the state speak to how suburbanized much of the state is.  On the other hand, comparing rent levels in suburban areas to levels in cities like Atlantic City, Newark, and Camden illustrate the dynamic levels of income inequality throughout the state.
+<p class="content">Consistent property values throughout the state speak to how suburbanized much of the state is.  In these areas, rental property values trend close to the average.  On the other hand, comparing rent levels in suburban areas to levels in cities like Newark and Paterson illustrate the dynamic levels of income inequality throughout the state.
 </p>
 
+<p class="content">This brought to mind the impact of population density.  I was curious to see if population density had any impact on property values.  It would make sense that more densely populated areas utilize larger apartment compelexes moreso than larger areas (much moreso than surburban areas where typically rooms of houses or buildings are put up for rent).  To explore this concept, I pulled in population density data from <a href="http://www.usa.com">usa.com</a>, and plotted against Zillow's data.  What I found was that aside from a few outliers there didn't seem to be any correlation between the two factors.
+</p>
 
 <!--POPUATION DENSITY: TABLE-->
 
 <p class="content-image"><a href="http://i.imgur.com/jBuIbeb.jpg" target="_blank"><img class="hold" src="http://i.imgur.com/jBuIbeb.jpg"></a></p>
 
 
+
 <!--POPULATION DENSITY: SCATTER-->
 
 <p class="content-image"><a href="http://i.imgur.com/yDyFLeq.png" target="_blank">
 <img class="content" src="http://i.imgur.com/yDyFLeq.png" width=600px></a></p>
-
+<p class="blogcaption">Size of each data point represents total population of the area relative to the rest of the state.  Color is just to give it a retro 70's feel to match my blog.  Yup.</p>
 
 <p class="content">The illustration of how diverse the state is led me to consider how rent prices may have affected (or been affected by) changes in the average unemployment rate state-wide.  For those who can afford renting a new place, it only makes sense that a rise in unemployment may discourage new renters.  Adversely, drops in unemployment may encourse new renters.  The first trend I looked for in the ZRI data was a noticeable rise in median rent levels from late 2011 when the unemployment rate in New Jersey began to significantly drop.</p>
 
@@ -106,25 +75,8 @@ The great divide.
 
 <p class="content-image"><a href="http://i.imgur.com/AACojF0.png" target="_blank">
 <img class="content" src="http://i.imgur.com/AACojF0.png" width=600px></a></p>
+<p class="blogcaption">Property values plotted against the state unemployment rate show a possible correlation between unemployment rate and dollar per square foot in rental properties.</p>
+
 
 <h3 align='center'><a href="http://nbviewer.ipython.org/github/c-trl/median-rent-prices-exploration/blob/master/zillow-data-exploration.ipynb" target="_blank">View the python/pandas/matplotlib in this ipython notebook.</a></h3>
 </div>
-
-
-
-<!----- b e g i n :  f o o t e r ----->
-
-<div class="push"></div>
-
-		</div>
-
-		<center>
-<div class="feet">
-<hr>
-<a title="LinkedIn" href="https://linkedin.com/in/christiantirol" target="_blank">linkedin</a>
-|  <a title="GitHub" href="https://github.com/c-trl" target="_blank">github</a> 
-|  <a title="E-Mail" href="mailto:tirol.christian@gmail.com?subject=Re: Median rent and ZRI" target="_blank">gmail</a>
-</center>
-</div>
-</body>  
-</html>
