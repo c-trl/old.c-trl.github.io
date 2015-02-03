@@ -74,7 +74,7 @@ p {
 	-webkit-filter: brightness(100%);
 	-webkit-filter: grayscale(20%);
 }
-p.blogcaption{
+.blogcaption{
 	color: #333333;
 	font-size: 9px;
 	background: white;
