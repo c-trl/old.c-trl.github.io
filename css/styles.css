@@ -79,7 +79,7 @@ p.blogcaption{
 	font-size: 9px;
 	background: white;
   	border: 3px solid #111111;
-  	margin: -20px auto 30px;
+  	margin: auto;
 	text-align: center;
 }
 .caption {
