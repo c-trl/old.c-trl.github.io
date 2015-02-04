@@ -64,7 +64,7 @@ The great divide.
 
 <p class="content-image"><a href="http://i.imgur.com/P8Bi3qU.png"><img class="content" src="http://i.imgur.com/P8Bi3qU.png"></a></p>
 
-<p class="content"></p>Actually, when Xanga closed out (or in their words, released 2.0), WordPress preserved a lot of the content that, upon release of 2.0, became unavailable.  Still bitter about that, Xanga, that wasn't cool.  Anyway, that was also around the same time services like Twitter and Tumblr started coming up.  Extensive blogging was soon replaced by quick quips and image sharing.  What better way to convey a thousand words than with a picture?  Other than 1,001 words, that is.</p>
+<p class="content"></p>Actually, when Xanga died out (or in their words, released 2.0), WordPress preserved a lot of the content that, upon release of 2.0, became unavailable.  Still bitter about that, Xanga, that wasn't cool.  Anyway, that was also around the same time services like Twitter and Tumblr started coming up.  Extensive blogging was soon replaced by quick quips and image sharing.  What better way to convey a thousand words than with a picture?  Other than 1,001 words, that is.</p>
 
 <p class="content">Enter the present-day.  Good guy WordPress remains preserving everyone's old Xanga content, but in archived form.  I wanted a way to take back my content and muck about in in it, wallowing in nostalgic mania.  What better way to do that than with Python!</p>
 
@@ -76,10 +76,10 @@ The great divide.
 
 <h3>What better way to do that than with Python!</h3>
 
-<p class="content">I tried a few ways to get to the heart of my old content.  In retrospect, downloading the archived XML files might have been easier, but in all honestly, not nearly as fun.  </p>
+<p class="content">I tried a few ways to get to the heart of my old content.  In retrospect, downloading the archived XML files might have been easier, but in all honestly, not nearly as fun.  I managed to pull in each page of my blog from WordPress using requests with Python.  I also tried urllib3, but requests seemed faster and far simpler.  After each page was pulled in, I converted the text to ASCII, although this step ended up being redundant once I got to using BeautifulSoup, which takes care of most - if not all - of text filtering and HTML parsing.  After going back to trim off the head and footer sections of each page and consolidating all the content into one string entity, I got to breaking out the NLTK (Natural Language Tool Kit).</p>
 
-
-
+<b align='center'><a href="http://nbviewer.ipython.org/github/c-trl/median-rent-prices-exploration/blob/master/requests.ipynb" target="_blank">Follow this project's progress in this ipython notebook</a></b>
+</div>
 <!--INITIAL FINDINGS-->
 
 
