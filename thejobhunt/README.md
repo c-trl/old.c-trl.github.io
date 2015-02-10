@@ -1,1 +1,1 @@
-h
+Watch as I document the struggles of finding a job as a budding Data Scientist.  [Check out the data review in this iPython notebook.](http://nbviewer.ipython.org/github/c-trl/c-trl.github.io/blob/master/thejobhunt/jobhuntdata.ipynb)
