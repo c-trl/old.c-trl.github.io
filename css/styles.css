@@ -37,7 +37,7 @@ blockquote {
 	color: #343434;
 }
 blockquote:before {
-	color: #ccc;
+	color: #000000;
 	content: open-quote;
 	font-size: 4em;
 	line-height: 0.1em;
