@@ -53,7 +53,7 @@ body {
 div {
 	position: relative;
 }
-div.main{
+p.main{
 	border: 3px solid #111111;
 }
 h1 {
