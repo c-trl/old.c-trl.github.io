@@ -1,7 +1,7 @@
 						/* tag styles */
 
 a:link {
-	color: #999999999;
+	color: #999999;
 	text-decoration: none;
 	-webkit-transition-property: width, height; /* Safari */
 	-webkit-transition-duration: 0.6s; /* Safari */
@@ -14,7 +14,7 @@ a:link {
 	transition: all 600ms ease
 }
 a:visited {
-	color: #999999999;
+	color: #999999;
 }
 a:hover {
 	color: #000000;
