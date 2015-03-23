@@ -1,7 +1,7 @@
 						/* tag styles */
 
 a:link {
-	color: #ffffff;
+	color: #cccccc;
 	text-decoration: none;
 	-webkit-transition-property: width, height; /* Safari */
 	-webkit-transition-duration: 0.6s; /* Safari */
@@ -15,7 +15,7 @@ a:link {
 	-webkit-text-stroke: 0.25px black;
 }
 a:visited {
-	color: #ffffff;
+	color: #cccccc;
 	-webkit-text-stroke: 0.25px black;
 }
 a:hover {
