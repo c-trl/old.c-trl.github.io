@@ -17,7 +17,8 @@ a:visited {
 	color: #999999;
 }
 a:hover {
-	color: #000000;
+	color: #ffffff;
+	-webkit-text-stroke: 0.25px #999999;
 }
 a:active {
 	color: #000000000;
