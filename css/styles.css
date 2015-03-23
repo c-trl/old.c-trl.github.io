@@ -52,8 +52,7 @@ body {
 	margin: 0 auto;
 	max-width: 800px;
 	background: #ffffff;
-	color: #eeeeee;
-	-webkit-text-stroke: 0.5px black;
+	color: #000000;
 }
 div {
 	position: relative;
@@ -65,11 +64,13 @@ h1 {
 	font-size: 75px;
 	color: #eeeeee;
 	margin: 40px 0 0 0;
+	-webkit-text-stroke: 0.5px black;
 }
 h2 {
 	text-align: center;
 	color: #ffffff;
 	margin: 0px 0 40px 0;
+	-webkit-text-stroke: 0.5px black;
 }
 header{
     height:100%
@@ -99,7 +100,8 @@ p.blogcaption{
 	color: #333333;
 	font-size: 9px;
 	background: white;
-  	border: 3px solid #111111;
+  	border: 1px solid #000000;
+  	opacity:.85
 	margin: -30px auto 30px;
 	text-align: center;
 	width: 100%;
@@ -128,7 +130,6 @@ p.content{
 	margin: 16px auto 16px;
 }
 img.content{
-	border: 0.5px solid #111111;
 	margin: 30px auto;
 	text-align: center;
 	width:100%;
