@@ -199,7 +199,6 @@ img.hold{
 
 }
 .main:hover {
-	height: 330px;
 	color:#ffffff;
 	border-radius: 18px;
 	opacity:1;
@@ -208,7 +207,6 @@ img.hold{
 	-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), to(rgba(0, 0, 0, 0)))
 }
 .main-pending:hover {
-	height: 330px;
 	color:#ffffff;
 	border-radius: 18px;
 	opacity:1;
@@ -240,8 +238,7 @@ img.hold{
 	-webkit-filter: brightness(115%);
 }  
 #about:hover{
-	width:130px;
-	height:130px;
+
 }
 #home{
 	-webkit-transition-property: width, height; /* Safari */
@@ -256,8 +253,7 @@ img.hold{
 	-webkit-filter: brightness(115%);
 }
 #home:hover{
-	width: 110px;
-	height:110px;
+
 	opacity:.75;
 	-webkit-filter: grayscale(50%);
 }
