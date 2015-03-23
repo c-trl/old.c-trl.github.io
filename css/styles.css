@@ -169,7 +169,6 @@ a.main {
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-	opacity:.85;
 	-webkit-filter: brightness(100%);
 	-webkit-filter: grayscale(20%);
 
