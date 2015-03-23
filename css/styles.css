@@ -1,7 +1,7 @@
 						/* tag styles */
 
 a:link {
-	color: #cccccc;
+	color: #999999999;
 	text-decoration: none;
 	-webkit-transition-property: width, height; /* Safari */
 	-webkit-transition-duration: 0.6s; /* Safari */
@@ -11,18 +11,16 @@ a:link {
 	-moz-transition: all 600ms ease;
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
-	transition: all 600ms ease;
-	-webkit-text-stroke: 0.25px black;
+	transition: all 600ms ease
 }
 a:visited {
-	color: #cccccc;
-	-webkit-text-stroke: 0.25px black;
+	color: #999999999;
 }
 a:hover {
 	color: #000000;
 }
 a:active {
-	color: #ffffff;
+	color: #000000000;
 	text-decoration: none;
 	-webkit-filter: brightness(130%);
 	-webkit-text-stroke: 0.25px black;
