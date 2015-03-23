@@ -18,7 +18,7 @@ a:visited {
 	text-decoration: none;
 }
 a:hover {
-	color: #eeeeee;
+	color: #aaaaaa;
 	text-decoration: none;
 	-webkit-filter: brightness(110%);
 }
