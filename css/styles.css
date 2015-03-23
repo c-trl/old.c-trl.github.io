@@ -1,7 +1,7 @@
 						/* tag styles */
 
 a:link {
-	color: #999999;
+	color: #000000;
 	text-decoration: none;
 	-webkit-transition-property: width, height; /* Safari */
 	-webkit-transition-duration: 0.6s; /* Safari */
@@ -12,18 +12,19 @@ a:link {
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
 	transition: all 600ms ease;
+	text-decoration: underline;
 }
 a:visited {
-	color: #999999;
+	color: #000000;
 	text-decoration: none;
+	text-decoration: underline;
 }
 a:hover {
-	color: #aaaaaa;
+	color: #cccccc;
 	text-decoration: none;
-	-webkit-filter: brightness(110%);
 }
 a:active {
-	color: #ffffff;
+	color: #cccccc;
 	text-decoration: none;
 	-webkit-filter: brightness(130%);
 }
