@@ -22,7 +22,6 @@ a:hover {
 a:active {
 	color: #000000;
 	text-decoration: none;
-	-webkit-filter: brightness(130%);
 }
 blockquote {
 	background: #cdcdcd;
