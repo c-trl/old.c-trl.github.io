@@ -128,7 +128,7 @@ p.content{
 	margin: 16px auto 16px;
 }
 img.content{
-	border: 3px solid #111111;
+	border: 0.5px solid #111111;
 	margin: 30px auto;
 	text-align: center;
 	width:100%;
