@@ -12,24 +12,20 @@ a:link {
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
 	transition: all 600ms ease;
-	-webkit-text-stroke: 1px black;
 }
 a:visited {
 	color: #999999;
 	text-decoration: none;
-	-webkit-text-stroke: 1px black;
 }
 a:hover {
 	color: #eeeeee;
 	text-decoration: none;
 	-webkit-filter: brightness(110%);
-	-webkit-text-stroke: 1px black;
 }
 a:active {
 	color: #ffffff;
 	text-decoration: none;
 	-webkit-filter: brightness(130%);
-	-webkit-text-stroke: 1px black;
 }
 blockquote {
 	background: #cdcdcd;
@@ -57,7 +53,7 @@ body {
 	max-width: 800px;
 	background: #ffffff;
 	color: #eeeeee;
-	-webkit-text-stroke: 1px black;
+	-webkit-text-stroke: 0.5px black;
 }
 div {
 	position: relative;
@@ -69,13 +65,11 @@ h1 {
 	font-size: 75px;
 	color: #eeeeee;
 	margin: 40px 0 0 0;
-	-webkit-text-stroke: 1px black;
 }
 h2 {
 	text-align: center;
 	color: #ffffff;
 	margin: 0px 0 40px 0;
-	-webkit-text-stroke: 1px black;
 }
 header{
     height:100%
