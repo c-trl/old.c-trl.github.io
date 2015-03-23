@@ -147,7 +147,11 @@ img.hold{
 	font-size: 50px;
 	color: #dddddd;
 	height: 130px
+}
 
+a.main {
+	color:#ffff00;
+}
 }
 .main {
 	width: 800px;
