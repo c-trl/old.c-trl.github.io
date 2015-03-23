@@ -45,7 +45,7 @@ blockquote:before {
 	vertical-align: -0.4em;
 	}
 blockquote p {
-  display: inline;
+	display: inline;
 }
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -99,7 +99,6 @@ p.blogcaption{
 	color: #333333;
 	font-size: 9px;
 	background: white;
-  	border: 1px solid #000000;
   	opacity:.85
 	margin: -30px auto 30px;
 	text-align: center;
