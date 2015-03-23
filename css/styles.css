@@ -17,11 +17,11 @@ a:visited {
 	color: #999999;
 }
 a:hover {
-	color: #ffffff;
+	color: #cccccc;
 	-webkit-text-stroke: 0.25px #999999;
 }
 a:active {
-	color: #000000000;
+	color: #000000;
 	text-decoration: none;
 	-webkit-filter: brightness(130%);
 }
