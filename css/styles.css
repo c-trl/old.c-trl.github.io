@@ -53,6 +53,9 @@ body {
 div {
 	position: relative;
 }
+div.main{
+	border: 3px solid #111111;
+}
 h1 {
 	font-family: 'Squada One', cursive;
 	text-align: center;
