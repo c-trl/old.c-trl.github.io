@@ -192,6 +192,8 @@ img.hold{
 
 }
 .main:hover {
+	width: 800px;
+	height: 5000px;
 	color:#ffffff;
 	border-radius: 18px;
 	opacity:1;
