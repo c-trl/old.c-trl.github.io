@@ -216,6 +216,21 @@ img.hold{
 .push {
     height: 10px; /* .push must be the same height as .footer */
 }
+.entrynavleft {
+	width: 200px;
+	height: 100px;
+	margin: auto 10px;
+}
+.entrynavmid {
+	width: 200px;
+	height: 100px;
+	margin: auto 10px auto;
+}
+.entrynavlright {
+	width: 200px;
+	height: 100px;
+	margin: auto 10px auto;
+}
 
 
 					/* id styles */
