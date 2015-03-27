@@ -308,35 +308,18 @@ img.hold{
 	background-image: url("http://www.halflife2.net/news_images/201103/1299105779_Portal-2-screenshots-081.jpg");
 	background-position: top;
 }
-
-@media (max-width: 1024px) {
-h1 {
-	padding: 0 30px 0 30px;
-}
-h2 {
-	padding: 0 30px 0 30px;
-}
-h3{
-	padding: auto;
-}
-div {
-
-}
-p {
-	padding: auto;
-}
-}
 @media (max-width: 720px) {
 h1 {
-	font-family: 'Squada One', cursive;
+	font-family: 'Roboto Slab', serif;
 	color:#dddddd;
-	font-size: 30px;
+	font-size: 2em;
 	margin-top: 20px;
 	line-height: 40px;
 	padding: 0 30px 0 30px;
 }
 h2 {
-	font-size: 16px;
+	font-family: 'Squada One', cursive;
+	font-size: 1.25em;
 	margin: 20px 0 30px 0;
 	padding: 0 30px 0 30px;
 }
@@ -362,14 +345,15 @@ hr{
 }
 
 h1 {
-	font-family: 'Squada One', cursive;
-	color:#dddddd;
-	font-size: 75px;
+	font-family: 'Roboto Slab', serif;
+	color:#000000;
+	font-size: 2em;
 	margin-top: 20px;
 	line-height: 40px;
 }
 h2 {
-	font-size: 20px;
+	font-family: 'Squada One', cursive;
+	font-size: 1.25em;
 	margin: 20px 0 30px 0;
 }
 h3{
