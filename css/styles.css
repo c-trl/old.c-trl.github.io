@@ -312,6 +312,7 @@ img.hold{
 h1 {
 	font-family: 'Roboto Slab', serif;
 	color:#000000;
+	font-size: 2em;
 	margin-top: 20px;
 	line-height: 40px;
 	padding: 0 30px 0 30px;
@@ -345,6 +346,7 @@ hr{
 h1 {
 	font-family: 'Roboto Slab', serif;
 	color:#000000;
+	font-size: 2em;
 	margin-top: 20px;
 	line-height: 40px;
 }
