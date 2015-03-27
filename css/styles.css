@@ -58,10 +58,9 @@ h1 {
 	font-family: 'Squada One', cursive;
 	text-align: center;
 	position: relative;
-	font-size: 75px;
-	color: #eeeeee;
+	font-size: 4em;
+	color: #000000;
 	margin: 40px 0 0 0;
-	-webkit-text-stroke: 0.25px black;
 }
 h2 {
 	text-align: center;
