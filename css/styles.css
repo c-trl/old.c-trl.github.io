@@ -69,6 +69,10 @@ h2 {
 	color: #000000;
 	margin: 0px 0 40px 0;
 }
+h3 {
+	font-family: 'Roboto Slab', serif;
+	margin: auto 10px auto 10px;
+}
 header{
     height:100%
 }
