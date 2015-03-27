@@ -311,8 +311,8 @@ img.hold{
 @media (max-width: 720px) {
 h1 {
 	font-family: 'Roboto Slab', serif;
-	color:#dddddd;
-	font-size: 2em;
+	color:#000000;
+	font-size: 1.5em;
 	margin-top: 20px;
 	line-height: 40px;
 	padding: 0 30px 0 30px;
